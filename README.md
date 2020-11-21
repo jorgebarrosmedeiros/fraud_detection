@@ -175,4 +175,3 @@ Random Forest is the machine learning model with the best performance.
 
 ![](img/d22.png)
 
-
