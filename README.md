@@ -143,8 +143,36 @@ True - There are more cases in transactions that were made through transfer.
 ![](img/d17.png)
 
 - As we can see above, fraudulent transactions usually happen when oldbalance_org is greater than zero.
-
-
 - 80% of the values that are not fraudulent are within the range 0 to 250,000.
-
 - We can say that the hypothesis is true.
+
+## 4.3. Multivariate Analysis
+
+![](img/d18.png)
+
+Very correlated variables are not good for the models, as we would increase the dimensionality without placing relevant variables. That is, if we have two highly correlated variables, we remove one from it.
+
+In this case, we have a high correlation between the variables:
+
+- error_balance_orig x Erro_balance_dest
+- newbalance_dest x oldbalance_dest
+- error_balance_dest x amount
+- error_balance_orig x amount
+
+# 5.0. MACHINE LEARNING MODELLING
+
+## 5.1. Machine Learning Performance
+
+![](img/d19.png)
+
+Random Forest is the machine learning model with the best performance.
+
+![](img/d20.png)
+
+![](img/d21.png)
+
+**Real Performance - Cross-Validation**
+
+![](img/d22.png)
+
+
