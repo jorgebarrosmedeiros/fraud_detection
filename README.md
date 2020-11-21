@@ -1,2 +1,2 @@
 # Fraud Detection - Blocker Fraud Comapny
-Author: Jorge | Data Scientist
+Author: Jorge Barros | Data Scientist
