@@ -114,3 +114,37 @@ In the descriptive analysis section, we observed the presence of many outliers i
 
 ### HYPOTHESIS VALIDATION ###
 
+### H1. High value transactions are more likely to be fraudulent
+True - There are more fraudulent transactions with higher amounts.
+
+![](img/d11.png)
+![](img/d12.png)
+![](img/d13.png)
+
+- The more the amount increases, the more cases of fraudulent than legitimate transactions.
+- The correlation between the variable amount and is_fraud is positive and low.
+- From the graphs above, we can conclude that the hypothesis is true.
+
+### H2. There are more cases of transfer fraud
+True - There are more cases in transactions that were made through transfer.
+
+![](img/d14.png)
+
+![](img/d15.png)
+
+- There are cases of fraud only through transfer and cash out.
+- Transactions with higher amounts are usually transfer and cash_out.
+- The sum of the values of fraudulent transactions is much larger than legitimate ones.
+
+### H3.There is more chance of having fraud when the final balance is zero.
+
+![](img/d16.png)
+
+![](img/d17.png)
+
+- As we can see above, fraudulent transactions usually happen when oldbalance_org is greater than zero.
+
+
+- 80% of the values that are not fraudulent are within the range 0 to 250,000.
+
+- We can say that the hypothesis is true.
