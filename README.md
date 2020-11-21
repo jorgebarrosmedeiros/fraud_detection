@@ -70,6 +70,47 @@ Apparently our dataset does not have inconsistent data types.
 - High presence of outliers who transferred to our type variable.
 - Cash_out is the most common form of payment, followed by payment.
 
-# 2.0. MindMap Hypothesis
+# 2.0. MINDMAP HYPOTHESIS
 
+![](img/Financial_Fraud.png)
+
+From the mind map above, we created some features to validate the hypotheses.
+
+# 3.0. DATA FILTERING
+
+In the descriptive analysis section, we observed the presence of many outliers in our financial variables. So, let's take a look to the distribution of the boxplot, since we do not have more information about the business.
+
+![](img/d7.png)
+
+# 4.0. EXPLORATORY DATA ANALYSIS
+
+## 4.1. Univariate Analysis
+
+### 4.1.1. Response Variable
+
+![](img/d8.png)
+
+- 99.2% of our data is not considered fraudulent, against 0.8% fraudulent.
+- Fraud has a very oscillatory tendency in relation to days.
+
+### 4.1.2. Numerical Attributes
+
+![](img/d9.png)
+
+- Financial variables with high concentration of values in a small range.
+- In the last 10 days of the month, there were far fewer transactions.
+- The first two weeks had a higher number of transactions.
+- There are more transactions on weekdays than on weekends. This is predictable due to the number of days.
+
+### 4.1.3. Categorical Attributes
+
+![](img/d10.png)
+
+- The most frequent types of transactions are, in descending order: CASH_OUT, PAYMENT, CASH_IN.
+- There are twice as many transactions for Costumers as compared to Merchant.
+- All transactions are made from Costumers. That is, there are no transactions executed by Merchant
+
+## 4.2. Bivariate Analysis 
+
+### HYPOTHESIS VALIDATION ###
 
