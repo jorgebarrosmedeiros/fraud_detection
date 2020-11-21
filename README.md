@@ -35,6 +35,41 @@ Dataset: https://www.kaggle.com/ntnu-testimon/paysim1/notebooks?sortBy=hotness&g
 
 ## 1.1. Data Dimensions
 
+Let's understand how big our dataset is. This will be important because a robust machine learning model needs a considerable amount of data to train our algorithm.
+
 ![](img/d1.jpg)
+
+Although we have a lot of data, we need to know if our computational capacity is sufficient. If a problem appears during the project, it will be necessary to use a GPU.
+
+## 1.2. Data Types
+
+![](img/d2.png)
+
+Apparently our dataset does not have inconsistent data types.
+
+## 1.3. Descriptive Statistical
+
+### 1.3.1. Numerical Attributes
+
+![](img/d3.png)
+
+![](img/d4.png)
+
+- It's important to note that we don't have null values.
+- is_flagged_fraud --> Most of the data in the "is_flagged_fraud" column is zero.
+- oldbalance_org --> If we look at the median, which represents the intermediate value, we have the value of 14,691.00 However, the range is equal to 59,585,040.00, which is very high. This variable will need to be checked soon.
+- newbalance_org, oldbalance_dest, newbalance_dest, amount --> Respects the same behavior as the oldbalance_org variable
+
+### 1.3.2. Categorical Attributes
+
+![](img/d5.png)
+
+![](img/d6.png)
+
+- Only 0.8% of our data is considered fraudulent.
+- High presence of outliers who transferred to our type variable.
+- Cash_out is the most common form of payment, followed by payment.
+
+# 2.0. MindMap Hypothesis
 
 
